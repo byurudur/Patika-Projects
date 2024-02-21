@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/week1/Manav Kasa/Manav Kasa.iml" filepath="$PROJECT_DIR$/week1/Manav Kasa/Manav Kasa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Patika-Projects.iml" filepath="$PROJECT_DIR$/.idea/Patika-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/Taximeter/Taximeter.iml" filepath="$PROJECT_DIR$/week1/Taximeter/Taximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/area-and-side-Circle/area-and-side-Circle.iml" filepath="$PROJECT_DIR$/week1/area-and-side-Circle/area-and-side-Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/atm-codes/atm-codes.iml" filepath="$PROJECT_DIR$/week1/atm-codes/atm-codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/average_grade_calculator/average_grade_calculator.iml" filepath="$PROJECT_DIR$/week1/average_grade_calculator/average_grade_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/bmi_Measurement/bmi_Measurement.iml" filepath="$PROJECT_DIR$/week1/bmi_Measurement/bmi_Measurement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/calculator-codes/calculator-codes.iml" filepath="$PROJECT_DIR$/week1/calculator-codes/calculator-codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/circle-zone-calculator/circle-zone-calculator.iml" filepath="$PROJECT_DIR$/week1/circle-zone-calculator/circle-zone-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/combination/combination.iml" filepath="$PROJECT_DIR$/week1/combination/combination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/craps-game/craps-game.iml" filepath="$PROJECT_DIR$/week1/craps-game/craps-game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/four-multipliers-and-even-sum/four-multipliers-and-even-sum.iml" filepath="$PROJECT_DIR$/week1/four-multipliers-and-even-sum/four-multipliers-and-even-sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/grade_average_calculator/grade_average_calculator.iml" filepath="$PROJECT_DIR$/week1/grade_average_calculator/grade_average_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/leap year/leap year.iml" filepath="$PROJECT_DIR$/week1/leap year/leap year.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/number-sorter/number-sorter.iml" filepath="$PROJECT_DIR$/week1/number-sorter/number-sorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/powers-of-four-five/powers-of-four-five.iml" filepath="$PROJECT_DIR$/week1/powers-of-four-five/powers-of-four-five.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/prime-number-detector/prime-number-detector.iml" filepath="$PROJECT_DIR$/week1/prime-number-detector/prime-number-detector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/right-angled-triangle/right-angled-triangle.iml" filepath="$PROJECT_DIR$/week1/right-angled-triangle/right-angled-triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/three-four-dividers/three-four-dividers.iml" filepath="$PROJECT_DIR$/week1/three-four-dividers/three-four-dividers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/week1.iml" filepath="$PROJECT_DIR$/week1/week1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week1/zodiacSign-finder/zodiacSign-finder.iml" filepath="$PROJECT_DIR$/week1/zodiacSign-finder/zodiacSign-finder.iml" />
+    </modules>
+  </component>
+</project>

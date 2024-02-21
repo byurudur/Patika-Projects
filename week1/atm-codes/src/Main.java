@@ -1,3 +1,8 @@
+/**
+ * @author Ahmet Batuhan YÜRÜDÜR
+ * @since 2024
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -17,6 +22,7 @@ public class Main {
         System.out.println("PLEASE TYPE YOUR NAME: ");
         name = input.nextLine();
         System.out.println(name + "," + " please type your password: ");
+
         // Collecting inputs;
         while (true) {
             password = input.nextInt();
@@ -37,6 +43,7 @@ public class Main {
 
         // Other actions;
         while (true) {
+
             System.out.println("How can JAVABANK help you today?");
             System.out.println("________________________________");
             System.out.println("1) I want to see my balance.");
