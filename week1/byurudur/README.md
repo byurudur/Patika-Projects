@@ -1,0 +1,6 @@
+- 👋 Hi, I’m Batu
+- 👀 I’m interested in Java, Javascript, HTML, CSS, React [Fullstack Dev]
+- 🌱 I’m currently learning Java
+- 💞️ I’m looking to collaborate on almost everything :)
+- 📫 You can reach me fastest with my LinkedIn @batuhanofficial
+- 😄 Pronouns: he/him
