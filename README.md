@@ -1,6 +1,6 @@
 ---
 # I develop codes, but I develop myself more.
-## Who am I?
+## Who am I? ![batuhanofficial](https://www.linkedin.com/in/batuhanofficial/?locale=en_US)
 
 I am a graduate of Materials Engineering. I took part in many projects in this field and did research and internships. However, my curiosity and passion led me to the world of software. The reason behind stepping into the software industry was my desire to acquire new skills in the rapidly developing world of technology and my desire to further improve myself in this field.
 
