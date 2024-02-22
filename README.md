@@ -11,11 +11,12 @@ A package of Patika+ assignments and projects in one repo.
 --
 ## Patika+ Full Stack Bootcamp Repository
 
-This repo is an archive containing all the projects I will make during my Java learning process.
+This repo is an archive containing all the projects that I created during my Fullstack education, Java part.
 
 
 
 #### You can use and develop the repository content as you wish.
+I am eager to learn any technique and ready to improve my coding skills.
 
 
 
@@ -26,6 +27,6 @@ This repo is an archive containing all the projects I will make during my Java l
 
 
 ## Project
- [Week One Practices](https://github.com/byurudur/Patika-Projects/tree/main/week1)
+ [Week One is here!](https://github.com/byurudur/Patika-Projects/tree/main/week1)
 
 ---
