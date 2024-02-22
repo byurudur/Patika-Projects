@@ -6,7 +6,7 @@ A package of Patika+ assignments and projects in one repo.
 ---
 
 
-![haedpng]![byyudur](https://github.com/byurudur/Patika-Projects/assets/136338567/d7843dcd-b8ba-431b-90ec-e7c14ce3daa1)
+![byyudur](https://github.com/byurudur/Patika-Projects/assets/136338567/d7843dcd-b8ba-431b-90ec-e7c14ce3daa1)
 
 --
 ## Patika+ Full Stack Bootcamp Repository
