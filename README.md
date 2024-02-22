@@ -1,7 +1,7 @@
 ---
-# Noob for Java, but am learning
+# I develop codes, but I develop myself more.
 
-A package of Patika+ assignments and projects in one repo.
+A package of Patika+ assignments and projects in one repo. All reviews and feedbacks are extremely valuable to me!
 
 ---
 
