@@ -28,6 +28,8 @@ I am eager to learn any technique and ready to improve my coding skills.
 
 ## Project
  [Week 1 is here!](https://github.com/byurudur/Patika-Projects/tree/main/week1)
+
+ 
  [Week 2 is here!](https://github.com/byurudur/Patika-Projects/tree/main/week2)
 
 ---
