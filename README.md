@@ -26,7 +26,7 @@ I am eager to learn any technique and ready to improve my coding skills.
 ---
 
 
-## Project
+## My Patika+ Projects. Check what did I learn week by week.
  [Week 1 is here!](https://github.com/byurudur/Patika-Projects/tree/main/week1)
 
  
