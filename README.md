@@ -35,6 +35,14 @@ I am eager to learn any technique and ready to improve my coding skills.
 
 ## My Patika+ Projects. Check what did I learn week by week.
 
+<details>
+  <summary>My weeks!</summary>
+  | Week 1 | Week 2 |
+|----------|----------|
+|[Here](https://github.com/byurudur/Patika-Projects/tree/main/week1) |[Here](https://github.com/byurudur/Patika-Projects/tree/main/week2) |
+  
+</details>
+
 | Week 1 | Week 2 |
 |----------|----------|
 |[Here](https://github.com/byurudur/Patika-Projects/tree/main/week1) |[Here](https://github.com/byurudur/Patika-Projects/tree/main/week2) |
