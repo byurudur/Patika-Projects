@@ -56,6 +56,7 @@ public class Employee {
 
 
     public void printInfo() {
+
         tax();
         payRaise();
         bonus();
@@ -77,5 +78,6 @@ public class Employee {
         System.out.println("Salary with tax & bonuses: " + (salary + bonus + tax));
         sleep();
         System.out.println("Total salary: " + (salary + bonus + tax + payRaise));
+
     }
 }
