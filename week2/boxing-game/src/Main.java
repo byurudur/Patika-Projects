@@ -13,5 +13,7 @@ public class Main {
 
         fighter.opening();
         fighter.gaming();
+
+
     }
 }
