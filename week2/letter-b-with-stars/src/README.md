@@ -1,0 +1,1 @@
+### Letter B pattern with stars ( * )

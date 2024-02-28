@@ -35,6 +35,5 @@ public class Main {
         // Output data.
         System.out.println("The closest number that higher than " + userNumber + " is " + max);
         System.out.println("The closest number that lower than " + userNumber + " is " + min);
-
     }
 }
