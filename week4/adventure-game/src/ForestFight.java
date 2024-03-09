@@ -33,7 +33,7 @@ public class ForestFight extends GamePlay {
 
     public void fightMechanic(){
 
-        int yourDamage = getUserDamage(); // Damage Health 0
+        int yourDamage = getUserDamage();
         switch (starter){
             case 1:
                 System.out.println("You hit first!");
@@ -69,7 +69,7 @@ public class ForestFight extends GamePlay {
                         if (monsterHealthCalculate < 0){
                             System.out.println("WOW! You win but you are exhausted... You are eating the healing herb... It increased your health...");
                             setUserHealth(userHealthCalculate + 100);
-                            marketLoop();
+
                             break;
                         } else if (userHealthCalculate < 0) {
                             System.out.println("YOU ARE DIED... GAME OVER...");
@@ -113,7 +113,7 @@ public class ForestFight extends GamePlay {
                         if (monsterHealthCalculate < 0){
                             System.out.println("WOW! You win but you are exhausted... You are eating the healing herb... It increased your health...");
                             setUserHealth(userHealthCalculate + 100);
-                            marketLoop();
+
                             break;
                         } else if (userHealthCalculate < 0) {
                             System.out.println("YOU ARE DIED... GAME OVER...");

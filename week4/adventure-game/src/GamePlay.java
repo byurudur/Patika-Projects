@@ -15,8 +15,7 @@ public class GamePlay {
     Random rand = new Random();
 
 
-
-    public void alInfo(){
+    public void alInfo() {
         getUserChoice();
         getUserDamage();
         getUserHealth();
@@ -59,15 +58,10 @@ public class GamePlay {
         dialogSleeper2000();
         System.out.println("What do they call you in your lands?:");
         userName = input.nextLine();
-        System.out.println("Welcome " + userName + "." + "You have to choose a path for glory or to be forgotten. " +
-                "Choose your way and dive in to Azuri..." +
-                "Go now. Go live your life.");
+        System.out.println("Welcome " + userName + "." + "You have to choose a path for glory or to be forgotten. " + "Choose your way and dive in to Azuri..." + "Go now. Go live your life.");
         dialogSleeper2000();
         System.out.println("*You are standing up and looking at a mirror. You are a/an:");
-        System.out.println( "1 - SAGE, " +
-                            "2 - CAVALRY, " +
-                            "3 - NAVY, " +
-                            "4 - LUCKY");
+        System.out.println("1 - SAGE, " + "2 - CAVALRY, " + "3 - NAVY, " + "4 - LUCKY");
         Wiseman wiseman = new Wiseman();
         Cavalry cavalry = new Cavalry();
         Navy navy = new Navy();
@@ -115,8 +109,7 @@ public class GamePlay {
                     statsInfo();
                     break;
                 default:
-                    System.out.println("You have to choose your fate! " +
-                            "Make a choose again, my son of reverend king Adam..:");
+                    System.out.println("You have to choose your fate! " + "Make a choose again, my son of reverend king Adam..:");
                     continue;
             }
             break;
@@ -149,7 +142,8 @@ public class GamePlay {
                     continue;
                 default:
                     System.out.println("You must feel dizzy. Make a choice " + userName + " the " + userCharacter);
-            }break;
+            }
+            break;
         }
     }
 
@@ -188,11 +182,11 @@ public class GamePlay {
 
     }
 
-    public void locationDecide(){
+    public void locationDecide() {
         System.out.println("Where do you want to travel, " + userName + "?");
-        while (true){
+        while (true) {
             int locationTravel = input.nextInt();
-            switch (locationTravel){
+            switch (locationTravel) {
                 case 1:
                     System.out.println("You have decided to go to the forest...");
                     dialogSleeper2000();
@@ -225,33 +219,10 @@ public class GamePlay {
                 default:
                     System.out.println("You have to decide something...");
                     continue;
-            }break;
+            }
+            break;
         }
     }
-
-    public void marketLoop(){
-        while (true) {
-
-            System.out.println("Where do you want to go?");
-            System.out.println("1 - To adventure! ");
-            System.out.println("2 - To the marketplace! ");
-            int wayDecision = input.nextInt();
-            switch (wayDecision) {
-                case 1:
-                    System.out.println(getUserChoice());
-                    locationInfo();
-                    locationDecide();
-                    break;
-                case 2:
-                    marketActions();
-                    continue;
-                default:
-                    System.out.println("You must feel dizzy. Make a choice " + userName + " the " + userCharacter);
-            }break;
-        }
-    }
-
-
 
 
     public void marketActions() {
