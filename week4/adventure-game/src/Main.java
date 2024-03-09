@@ -4,7 +4,7 @@ public class Main {
         GamePlay starter = new GamePlay();
         ForestFight forest = new ForestFight();
         forest.forestFight();
-        // AGA İLK YORUM
+        // aga noldu aga
 
     }
 }
