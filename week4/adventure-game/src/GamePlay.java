@@ -13,9 +13,19 @@ public class GamePlay {
     Characters characters;
     Scanner input = new Scanner(System.in);
     Random rand = new Random();
+
+
+
+    public void alInfo(){
+        getUserChoice();
+        getUserDamage();
+        getUserHealth();
+
+    }
+
     public void dialogSleeper2000() {
         try {
-            Thread.sleep(800);
+            Thread.sleep(0);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -40,7 +50,7 @@ public class GamePlay {
     }
 
     public void gameStarter() {
-        byte userChoice;
+
         System.out.println("'You woke up in a coast with no clothes, bleeding. An old man with a long white beard smiles at you; '");
         bracketEquals();
         System.out.println("Welcome stranger. Welcome to this is forgotten continent, so called 'Azure Atoll'.");
@@ -64,7 +74,9 @@ public class GamePlay {
         Lucky lucky = new Lucky();
 
         do {
-            userChoice = input.nextByte();
+            userChoice = input.nextInt();
+            setUserChoice(userChoice);
+            alInfo();
             switch (userChoice) {
                 case 1:
                     System.out.println("You are a Sage! You may be weak, but you have the strangest power of all.. Wisdom of enemies...");
@@ -119,13 +131,16 @@ public class GamePlay {
         System.out.println("Choose your wants, give yourself a treat.");
         bracketEquals();
         dialogSleeper2000();
+
         while (true) {
+
             System.out.println("Where do you want to go?");
             System.out.println("1 - To adventure! ");
             System.out.println("2 - To the marketplace! ");
             int wayDecision = input.nextInt();
             switch (wayDecision) {
                 case 1:
+                    System.out.println(getUserChoice());
                     locationInfo();
                     locationDecide();
                     break;
@@ -184,8 +199,6 @@ public class GamePlay {
                     System.out.println("You are wandering around tall trees, sun light is almost gone...");
                     dialogSleeper2000();
                     System.out.println("Suddenly you saw the 2 headed deer... LET THE HORNS CRUSH!");
-                    ForestFight forest = new ForestFight();
-                    forest.fightMechanic();
                     break;
                 case 2:
                     System.out.println("You have decided to go to the city...");
@@ -193,6 +206,7 @@ public class GamePlay {
                     System.out.println("You are wandering around gettos and everyone looking strange...");
                     dialogSleeper2000();
                     System.out.println("Suddenly you saw the Roaniec... LET THE FIST-FIGHT BEGINS!");
+                    // city fight
                     break;
                 case 3:
                     System.out.println("You have decided to go to the desert...");
@@ -210,6 +224,29 @@ public class GamePlay {
                     break;
                 default:
                     System.out.println("You have to decide something...");
+                    continue;
+            }break;
+        }
+    }
+
+    public void marketLoop(){
+        while (true) {
+
+            System.out.println("Where do you want to go?");
+            System.out.println("1 - To adventure! ");
+            System.out.println("2 - To the marketplace! ");
+            int wayDecision = input.nextInt();
+            switch (wayDecision) {
+                case 1:
+                    System.out.println(getUserChoice());
+                    locationInfo();
+                    locationDecide();
+                    break;
+                case 2:
+                    marketActions();
+                    continue;
+                default:
+                    System.out.println("You must feel dizzy. Make a choice " + userName + " the " + userCharacter);
             }break;
         }
     }
