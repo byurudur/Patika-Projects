@@ -37,6 +37,10 @@ I am eager to learn any technique and ready to improve my coding skills.
   
   - [Week 2](https://github.com/byurudur/Patika-Projects/tree/main/week2)
 
+  - [Week 3] ## Graduation project 1: Minesweeper Game --> Coming soon...
+
+  - [Week 4](https://github.com/byurudur/Patika-Projects/tree/main/week4)
+
   
 </details>
 
