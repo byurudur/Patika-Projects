@@ -3,6 +3,7 @@
  * @since 2024
  */
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -36,27 +37,33 @@ public class Main {
 
         System.out.println("To quit, type the number 99 (No item on index #99)");
         bracketEquals();
-        int itemIndex;
+        int itemIndex = 0;
         do {
             Scanner input = new Scanner(System.in);
             System.out.println("I want to learn the item at the index of: ");
-            itemIndex = input.nextInt();
-            if (itemIndex == 99) {
-                bracketEquals();
-                System.out.println("Exiting...");
-                bracketEquals();
-                break;
-            } else {
+
                 try {
+                    itemIndex = input.nextInt();
+                    if (itemIndex == 99) {
+                        bracketEquals();
+                        System.out.println("Exiting...");
+                        bracketEquals();
+                        break;
+                    } else {
                     System.out.println("The item at the index " + itemIndex + " is: " + list[itemIndex]);
                     System.out.println("Another?");
                     bracketEquals();
+                    }
                 } catch (ArrayIndexOutOfBoundsException e) {
                     System.out.println("Index " + itemIndex + " is out of bounds for a list length of 10.");
                     System.out.println("Try again.");
                     bracketEquals();
+                } catch (InputMismatchException e){
+                    System.out.println("Whoops!" + "Please enter an integer.");
+                } catch (Exception e){
+                    System.out.println("An error occurred: " + e.getMessage());
+                    // Log codes.
                 }
-            }
         } while (true);
     }
 }
