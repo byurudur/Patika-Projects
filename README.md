@@ -41,6 +41,8 @@ I am eager to learn any technique and ready to improve my coding skills.
 
   - [Week 4](https://github.com/byurudur/Patika-Projects/tree/main/week4)
 
+  - [Week 5](https://github.com/byurudur/Patika-Projects/tree/main/week5)
+
   
 </details>
 
