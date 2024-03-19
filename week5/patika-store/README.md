@@ -76,7 +76,7 @@ PathStore is a command-line inventory management system for smartphones and lapt
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
 
 ## Contact
 
