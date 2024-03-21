@@ -1,0 +1,5 @@
+SELECT country_id as şehir, MAX(country_id) as "EN FAZLA"
+FROM city
+GROUP BY country_id
+ORDER BY country_id DESC
+LIMIT 1;
