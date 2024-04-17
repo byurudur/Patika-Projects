@@ -1,13 +1,13 @@
 package View;
 
+import Business.UserManager;
 import Core.Helper;
+import Entities.User;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class LoginUI extends JFrame {
+public class LoginUI extends Layout {
+    private final UserManager userManager;
     private JPanel container;
     private JPanel wrapper_top;
     private JLabel label_welcome;
@@ -21,16 +21,21 @@ public class LoginUI extends JFrame {
 
     public LoginUI(){
         this.add(container);
-        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        this.setTitle("Rent A Car");
-        this.setSize(500,500);
-        this.setVisible(true);
-        int x = (Toolkit.getDefaultToolkit().getScreenSize().width - this.getSize().width) / 2;
-        int y = (Toolkit.getDefaultToolkit().getScreenSize().height - this.getSize().height) / 2;
-        this.setLocation(x, y);
+        this.userManager = new UserManager();
+        this.guiInitialize(400,400);
+
         button_login.addActionListener(e -> {
             if (Helper.isFieldEmpty(this.user_name) || Helper.isFieldEmpty(this.password)){
                 JOptionPane.showMessageDialog(null, "Invalid username or password.", "Error", JOptionPane.INFORMATION_MESSAGE);
+            }else {
+                User loginUser = this.userManager.findByLogin(this.user_name.getText(), this.password.getText());
+                if (loginUser == null){
+                    Helper.msg("No such user.");
+                }else {
+                    Helper.msg("Success.");
+                    AdminUI adminUI = new AdminUI(loginUser);
+                    dispose();
+                }
             }
         });
     }

@@ -1,4 +1,8 @@
+import Business.UserManager;
 import Core.DataBaseConnection;
+import Entities.Brand;
+import View.AdminUI;
+import View.BrandUI;
 import View.LoginUI;
 
 import java.sql.Connection;
@@ -13,7 +17,10 @@ public class App {
         // Business
         // View
 
-        DataBaseConnection.getInstance(); // Singleton design pattern
-        LoginUI loginUI = new LoginUI();
+        //DataBaseConnection.getInstance(); // Singleton design pattern
+        //LoginUI loginUI = new LoginUI();
+        UserManager userManager = new UserManager();
+
+        AdminUI adminUI = new AdminUI(userManager.findByLogin("Kiersten Skally", "fR9>L=W"));
     }
 }

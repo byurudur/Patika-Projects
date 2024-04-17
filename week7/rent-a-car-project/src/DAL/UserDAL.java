@@ -15,12 +15,15 @@ public class UserDAL {
     public UserDAL(){
         this.conn = DataBaseConnection.getInstance();
     }
-    public ArrayList<User> userArrayList(){
+
+
+    public ArrayList<User> findAll(){
+        ArrayList<User> userArrayList = new ArrayList<>();
         String sQL = "SELECT * FROM public.user";
         try {
             ResultSet resultSet = this.conn.createStatement().executeQuery(sQL);
             while (resultSet.next()){
-                User obj = new User();
+                userArrayList.add(this.match(resultSet));
 
             }
         }catch (SQLException e){
@@ -40,16 +43,20 @@ public class UserDAL {
             preparedStatement.setString(2,passWord);
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()){
-                object = new User();
-                object.setUser_id(resultSet.getInt("user_id"));
-                object.setUser_name(resultSet.getString("user_name"));
-                object.setUser_password(resultSet.getString("user_password"));
-                object.setUser_role((resultSet.getString("user_role")));
+                object = this.match(resultSet);
             }
         } catch (SQLException e) {
             System.out.println("Connection error on the SQL:" + e.getMessage());
         }
         return object;
+    }
+    public User match(ResultSet resultSet) throws SQLException {
+        User object = new User();
+        object.setUser_id(resultSet.getInt("user_id"));
+        object.setUser_name(resultSet.getString("user_name"));
+        object.setUser_password(resultSet.getString("user_password"));
+        object.setUser_role((resultSet.getString("user_role")));
+        return  object;
     }
 
 }
