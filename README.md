@@ -43,6 +43,16 @@ I am eager to learn any technique and ready to improve my coding skills.
 
   - [Week 5](https://github.com/byurudur/Patika-Projects/tree/main/week5)
 
+  - [Week 6](https://github.com/byurudur/Patika-Projects/tree/main/week6)
+
+  - [Week 7](https://github.com/byurudur/Patika-Projects/tree/main/week7)
+
+  - [Week 8](https://gifsec.com/wp-content/uploads/2022/10/happy-holidays-gif-4.gif)
+
+  - [Week 9, 10](Tourism Agency Project soon to be public!)
+
+  - [Week 11](Progressing...)
+
   
 </details>
 
