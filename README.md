@@ -49,9 +49,9 @@ I am eager to learn any technique and ready to improve my coding skills.
 
   - [Week 8](https://gifsec.com/wp-content/uploads/2022/10/happy-holidays-gif-4.gif)
 
-  - [Week 9, 10](Tourism Agency Project soon to be public!)
+  - [Week 9, 10](https://github.com/byurudur/Tourism-Agency-Management-Project)
 
-  - [Week 11](https://github.com/byurudur/Patika-Projects/tree/main/week11))
+  - [Week 11](https://github.com/byurudur/Patika-Projects/tree/main/week11)
 
   
 </details>
