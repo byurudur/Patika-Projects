@@ -51,7 +51,7 @@ I am eager to learn any technique and ready to improve my coding skills.
 
   - [Week 9, 10](Tourism Agency Project soon to be public!)
 
-  - [Week 11](Progressing...)
+  - [Week 11](https://github.com/byurudur/Patika-Projects/tree/main/week11))
 
   
 </details>
