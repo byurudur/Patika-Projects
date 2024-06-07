@@ -53,6 +53,11 @@ I am eager to learn any technique and ready to improve my coding skills.
 
   - [Week 11](https://github.com/byurudur/Patika-Projects/tree/main/week11)
 
+  - [Week 12](https://github.com/byurudur/Patika-Projects/tree/main/Spring-Framework/library-management-app/library-management-app)
+
+  - [Week 13](https://github.com/byurudur/Veterinary-Management-System)
+
+
   
 </details>
 
